@@ -1,0 +1,18 @@
+.envrc
+.vagrant/
+*.out
+*.log
+**/.terraform
+**/*.tfstate.backup
+**/*.tfstate
+*.tfstate
+*.tfstate.backup
+.local
+*.tfstate
+
+# InSpec vendoring
+**/inspec.lock
+
+# Testing
+.kitchen/
+.kitchen.local.yml
